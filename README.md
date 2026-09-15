@@ -149,7 +149,7 @@ npm run test:live
 
 Live tests contact external services and consume the corresponding account quotas.
 
-## ⚙️ Configuration
+## 🔧 Configuration
 
 The plugin's `config` object controls the provider chain. These are the most common settings:
 
@@ -191,7 +191,7 @@ The public package passed **all 29 tests**, including its live CLI checks with g
 
 Coverage includes schema enforcement, prose-only replies, provider ordering, failed subprocesses, empty results, bounded timeouts, caller cancellation, MCP response parsing, and page retrieval. See [validation notes](./docs/validation.md) for the scope and limits of the live checks.
 
-## 🛠️ Troubleshooting
+## 🧰 Troubleshooting
 
 | Symptom | What to check |
 | --- | --- |
