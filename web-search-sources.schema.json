@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "properties": {
+          "url": { "type": "string" },
+          "title": { "type": "string" },
+          "snippet": { "type": "string" }
+        },
+        "required": ["url", "title", "snippet"]
+      }
+    }
+  },
+  "required": ["sources"]
+}

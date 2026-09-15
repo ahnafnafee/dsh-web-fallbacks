@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="480" viewBox="0 0 1280 480" role="img" aria-labelledby="title desc">
+  <title id="title">DSH Web Fallbacks</title>
+  <desc id="desc">Web search and site fetch through Claude Code, Codex, Firecrawl, and Linksc.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#151321"/><stop offset="1" stop-color="#080b13"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#c6a5ff"/><stop offset="0.52" stop-color="#a08bff"/><stop offset="1" stop-color="#63dce8"/>
+    </linearGradient>
+    <radialGradient id="glow"><stop stop-color="#8861df" stop-opacity=".3"/><stop offset="1" stop-color="#8861df" stop-opacity="0"/></radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern>
+  </defs>
+  <rect width="1280" height="480" rx="24" fill="url(#bg)"/>
+  <rect width="1280" height="480" rx="24" fill="url(#grid)"/>
+  <ellipse cx="1060" cy="140" rx="380" ry="320" fill="url(#glow)"/>
+  <g fill="none" stroke="#c6a5ff" stroke-opacity=".12">
+    <circle cx="1080" cy="190" r="114"/><circle cx="1080" cy="190" r="151"/><circle cx="1080" cy="190" r="190"/>
+  </g>
+  <g transform="translate(1033 126)" fill="none" stroke="url(#accent)" stroke-width="6" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="40" cy="40" r="33"/><path d="m65 65 30 30M20 40h40M40 20v40"/>
+  </g>
+  <rect x="64" y="53" width="244" height="30" rx="15" fill="#b597ff" fill-opacity=".1" stroke="#b597ff" stroke-opacity=".25"/>
+  <circle cx="82" cy="68" r="4" fill="#aaefdc"/>
+  <text x="96" y="73" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="2" fill="#dacdff">DEEPSEEK HARNESS PLUGIN</text>
+  <text x="61" y="171" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="72" font-weight="750" letter-spacing="-3" fill="#f4f2fa">Web access.</text>
+  <text x="61" y="251" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="72" font-weight="750" letter-spacing="-3" fill="url(#accent)">With a fallback plan.</text>
+  <text x="65" y="296" font-family="Segoe UI, Inter, Arial, sans-serif" font-size="21" fill="#aaa8bc">Search the web. Fetch a page. Keep the task moving.</text>
+  <path d="M96 390H1184" stroke="url(#accent)" stroke-width="2" stroke-opacity=".45"/>
+  <g font-family="Segoe UI, Inter, Arial, sans-serif" font-size="17" font-weight="600" text-anchor="middle">
+    <rect x="64" y="363" width="192" height="54" rx="13" fill="#151725" stroke="#444058"/>
+    <text x="160" y="397" fill="#b7b5c7">Primary provider</text>
+    <rect x="298" y="363" width="192" height="54" rx="13" fill="#201b30" stroke="#7c659e"/>
+    <text x="394" y="397" fill="#ebdbff">Claude Code</text>
+    <rect x="532" y="363" width="192" height="54" rx="13" fill="#201b30" stroke="#7c659e"/>
+    <text x="628" y="397" fill="#ebdbff">Codex</text>
+    <rect x="766" y="363" width="192" height="54" rx="13" fill="#17242c" stroke="#477079"/>
+    <text x="862" y="397" fill="#b7f0ee">Firecrawl</text>
+    <rect x="1000" y="363" width="216" height="54" rx="13" fill="#151725" stroke="#444058"/>
+    <text x="1108" y="397" fill="#b7b5c7">Linksc</text>
+  </g>
+  <g fill="#9585b5"><path d="m278 386 6 4-6 4z"/><path d="m512 386 6 4-6 4z"/><path d="m746 386 6 4-6 4z"/><path d="m980 386 6 4-6 4z"/></g>
+  <rect x=".5" y=".5" width="1279" height="479" rx="24" fill="none" stroke="#ffffff" stroke-opacity=".08"/>
+</svg>

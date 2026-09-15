@@ -1,0 +1,27 @@
+# Merge these entries into your existing ~/.dsh/cordis.patch.yml.
+# npm run config:example prints the actual file URL for your checkout.
+- id: web
+  config:
+    searchProvider: claude-code
+    fetchProvider: claude-code
+
+- id: tool-web
+  config:
+    fetch: true
+    searchTimeoutMs: 120000
+    fetchTimeoutMs: 180000
+
+- insert:
+    - id: web-search-claude-code
+      name: "file:///absolute/path/dsh-web-fallbacks/web-search-claude-code.mjs?v=0.1.0"
+      config:
+        primary: deepseek-official
+        fetchPrimary: http
+        bin: claude
+        model: haiku
+        codexBin: codex
+        codexModel: gpt-5.6-sol
+        # Optional MCP endpoints. Configure credentials only in your local file.
+        firecrawlMcpUrl: ""
+        linkscMcpUrl: ""
+        linkscHeaders: {}

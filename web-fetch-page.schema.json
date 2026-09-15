@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "success": { "type": "boolean" },
+    "url": { "type": "string" },
+    "content": { "type": "string" }
+  },
+  "required": ["success", "url", "content"]
+}

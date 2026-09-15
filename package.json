@@ -1,0 +1,20 @@
+{
+  "name": "dsh-web-fallbacks",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Reliable web search and site fetch for DeepSeek Harness, with Claude Code, Codex, Firecrawl, and Linksc fallbacks.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=22.12.0" },
+  "scripts": {
+    "test": "node --test tests/web-search-claude-code.test.mjs",
+    "test:live": "node scripts/run-live-tests.mjs",
+    "config:example": "node scripts/print-config.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahnafnafee/dsh-web-fallbacks.git"
+  },
+  "bugs": { "url": "https://github.com/ahnafnafee/dsh-web-fallbacks/issues" },
+  "homepage": "https://github.com/ahnafnafee/dsh-web-fallbacks#readme"
+}
